@@ -1,0 +1,13 @@
+name: financial-portfolio-analysis
+title: financial-portfolio-analysis
+username:
+account: afoudajosue
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7960708
+bundleId: 7084221
+url: https://afoudajosue.shinyapps.io/financial-portfolio-analysis/
+when: 1681384875.89178
+lastSyncTime: 1681384875.89181
+asMultiple: FALSE
+asStatic: FALSE

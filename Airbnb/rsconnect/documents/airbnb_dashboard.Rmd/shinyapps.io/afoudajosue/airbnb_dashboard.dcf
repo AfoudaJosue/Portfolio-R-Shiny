@@ -1,0 +1,13 @@
+name: airbnb_dashboard
+title: airbnb_dashboard
+username:
+account: afoudajosue
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4111259
+bundleId: 7083959
+url: https://afoudajosue.shinyapps.io/airbnb_dashboard/
+when: 1681378577.46042
+lastSyncTime: 1681378577.46045
+asMultiple: FALSE
+asStatic: FALSE
