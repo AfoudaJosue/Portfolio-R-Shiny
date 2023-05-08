@@ -19,7 +19,7 @@ library(shinyWidgets)
 #FF5850 red
 #436983 hipster blue
 
-shinyUI(navbarPage(title = "J.A Datatech Consulting",
+shinyUI(navbarPage(title = "Josué AFOUDA",
                    theme = "style/style.css",
                    footer = includeHTML("footer.html"),
                    fluid = TRUE, 
@@ -85,6 +85,101 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                                           .tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}
                                         
                                         ")),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("Apprendre Python, Numpy, Pandas pour la Data Science")),
+                                     h4(p("Ce cours est basé sur mon livre intitulé :"), 
+                                        p(a("Savoir programmer avec le langage Python appliqué à l'analyse des données: Cours, Exercices corrigés et Projets réels", 
+                                            href = "https://www.amazon.fr/gp/product/B08CWM7L1Y/ref=dbs_a_def_rwt_hsch_vamf_tkin_p1_i4"))),
+                                     h4(p("A travers ce cours, 
+                                     vous apprendrez à :
+                                     •configurer votre environnement Python pour un travail efficace ;
+                                     •écrire du code propre et concis avec Python 3 incluant des structures conditionnelles et des boucles ;
+                                     •écrire des programmes Python qui interagissent avec les utilisateurs et traite leurs entrées afin de générer 
+                                     les sorties souhaitées ;
+                                     •automatiser des tâches en écrivant des fonctions ;
+                                     •utiliser certains outils modernes comme les fonctions lambda, les listes de compréhension, 
+                                     les fonctions map() et filter() ; 
+                                     •stocker l’information dans des structures de données et générer des statistiques ;
+                                     •effectuer une analyse des données avec des fonctionnalités de Numpy et de Pandas ;
+                                     •analyser de réels jeux de données.
+                                     Suivez la vidéo jusqu'à la fin et vous serez un programmeur Python en un rien de temps !")),
+                                     #br(),
+                                     h4(p(a("Téléchargez les ressources de ce cours", href = "https://drive.google.com/file/d/1eBe_csn6H1a5S8BAYcJbBNrDKpAsxiSG/view?usp=sharing"), ".")),
+                                     br()
+                                     
+                              ),
+                              
+                              column(6,
+                                     h4(p("Videos du cours")),
+                                     br(),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/LwkWwxg10IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     br()
+                              )
+                            ),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("APPRENDRE A PROGRAMMER AVEC R ET RSTUDIO [PARTIES 1 ET 2]")),
+                                     h4(p("Ce cours est basé sur mon livre intitulé :"), 
+                                        p(a("APPRENDRE À PROGRAMMER AVEC R ET RSTUDIO: MANUEL DE COURS ET EXERCICES CORRIGÉS POUR DÉBUTANTS", 
+                                            href = "https://www.amazon.fr/gp/product/B09P7SSTKS/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i1"))),
+                                     h4(p(a("Version PDF du livre", href = "https://buy.stripe.com/aEU7wu1kW4EG94A6ov"))),
+                                     #h4(p(a("Version HTML du livre", href = "https://rpubs.com/Josue90/Apprendre_R_et_RStudio"))),
+                                     h4(p("A la fin de cette formation, vous allez maîtriser les concepts 
+                                          fondamentaux de la programmation informatique. Vous serez aussi capables de créer vos propres 
+                                          programmes incluant des structures if, for, while ainsi que vos propres fonctions. 
+                                          De plus, vous serez capables d'importer des données à partir de différentes sources telles que 
+                                          les fichiers Excel, CSV, les API et même des données du Web avec le Web Scraping. 
+                                          Vous allez maîtriser l'utilisation de la célèbre bibliothèque Tidyverse ainsi que ces principaux packages 
+                                          dont GGPLOT2 pour la visualisation des données, DPLYR, FORCATS, etc.")),
+                                     #br(),
+                                     h4(p(a("Voir les Ressources de ce cours", href = "https://rpubs.com/Josue90/Apprendre_R_et_RStudio"), ".")),
+                                     br()
+                                     
+                              ),
+                              
+                              column(6,
+                                     h4(p("Video du cours")),
+                                     br(),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/UkQBRuzwXOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     br()
+                              )
+                            ),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("APPRENDRE A PROGRAMMER AVEC R ET RSTUDIO [PARTIE 3]")),
+                                     h4(p("Ce cours est basé sur mon livre intitulé :"), 
+                                        p(a("APPRENDRE À PROGRAMMER AVEC R ET RSTUDIO: MANUEL DE COURS ET EXERCICES CORRIGÉS POUR DÉBUTANTS", 
+                                            href = "https://www.amazon.fr/gp/product/B09P7SSTKS/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i1"))),
+                                     h4(p(a("Version PDF du livre", href = "https://buy.stripe.com/aEU7wu1kW4EG94A6ov"))),
+                                     #h4(p(a("Version HTML du livre", href = "https://rpubs.com/Josue90/Apprendre_R_et_RStudio"))),
+                                     h4(p("A la fin de cette formation, vous allez maîtriser les concepts 
+                                          fondamentaux de la programmation informatique. Vous serez aussi capables de créer vos propres 
+                                          programmes incluant des structures if, for, while ainsi que vos propres fonctions. 
+                                          De plus, vous serez capables d'importer des données à partir de différentes sources telles que 
+                                          les fichiers Excel, CSV, les API et même des données du Web avec le Web Scraping. 
+                                          Vous allez maîtriser l'utilisation de la célèbre bibliothèque Tidyverse ainsi que ces principaux packages 
+                                          dont GGPLOT2 pour la visualisation des données, DPLYR, FORCATS, etc.")),
+                                     #br(),
+                                     h4(p(a("Voir les Ressources de ce cours", href = "https://rpubs.com/Josue90/Apprendre_R_et_RStudio"), ".")),
+                                     br()
+                                     
+                              ),
+                              
+                              column(6,
+                                     h4(p("Video du cours")),
+                                     br(),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/4cUwGfcBLv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     br()
+                              )
+                            ),
+                            
                             fluidRow(
                               column(6,
                                      #br(),
@@ -117,7 +212,8 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                                      br()
                               )
                             ),
-                            
+                    
+                    
                             fluidRow(
                               column(6,
                                      #br(),
@@ -150,30 +246,31 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                             fluidRow(
                               column(6,
                                      #br(),
-                                     h3(strong("Maîtriser Python pour la Data Science")),
+                                     h3(strong("Formation complète Big Data et Machine Learning avec Apache Spark dans R")),
                                      h4(p("Ce cours est basé sur mon livre intitulé :"), 
-                                        p(a("Savoir programmer avec le langage Python appliqué à l'analyse des données: Cours, Exercices corrigés et Projets réels", 
-                                            href = "https://www.amazon.fr/gp/product/B08CWM7L1Y/ref=dbs_a_def_rwt_hsch_vamf_tkin_p1_i3"))),
-                                     h4(p("A travers ce cours, vous apprendrez à : ✅ Configurer votre environnement Python pour 
-                                     un travail efficace ; ✅ Écrire du code propre et concis avec Python 3 incluant des structures c
-                                     onditionnelles, des boucles et des fonctions ; ✅ Écrire des programmes Python qui interagissent a
-                                     vec les utilisateurs et traite leurs entrées afin de générer les sorties souhaitées ; 
-                                     ✅ Automatiser des tâches en écrivant des fonctions  ;✅ Utiliser certains outils modernes comme les
-                                     fonctions lambda, les listes de compréhension, les fonctions map() et filter() ; ✅ Stocker l
-                                     ’information dans des structures de données et générer des statistiques ; ✅ Effectuer une analyse d
-                                     es données avec des fonctionnalités de Numpy et de Pandas ; Etc.")),
+                                        p(a("Big Data et Pipelines de Machine Learning: Analyser et modéliser vos données avec Apache Sparkly", 
+                                            href = "https://www.amazon.fr/gp/product/B0BF2WX8FL/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i7"))),
+                                     h4(p(a("Version PDF du livre", href = "https://buy.stripe.com/aEU7wu1kW4EG94A6ov"))),
+                                     #h4(p(a("Version HTML du livre", href = "https://rpubs.com/Josue90/Apprendre_R_et_RStudio"))),
+                                     h4(p("𝗔 travers ce cours, vous apprendrez à :
+                                     * installer Sparklyr et une version récente d'Apache Spark dans votre pc ;
+                                     * construire et évaluer des modèles de Machine Learning avec la librairie tidymodels ;
+                                     * combiner sparklyr et tidymodels pour plus d'efficacité sur les données Big Data ;
+                                     * réaliser une analyse exploratoire des données Big Data en utilisant sparklyr et dplyr ;
+                                     * afficher les requêtes SQL équivalentes de codes dplyr ;
+                                     * construire, entraîner et évaluer un pipeline de Machine Learning en utilisant Spark MLlib ;
+                                     * optimiser un modèle de Machine Learning en réglant ses hyperparamètres ;
+                                          * déployer un modèle de Machine Learning dans une application web.")),
                                      #br(),
-                                     h4(p(a("Téléchargez les ressources de ce cours", 
-                                            href = "https://drive.google.com/file/d/1eBe_csn6H1a5S8BAYcJbBNrDKpAsxiSG/view?usp=sharing"), ".")),
+                                     h4(p(a("Voir les Ressources de ce cours", href = "https://rpubs.com/Josue90/Apache_Sparklyr"), ".")),
                                      br()
                                      
-                                     #hr(),
-                                     
                               ),
+                              
                               column(6,
-                                     
+                                     h4(p("Video du cours")),
                                      br(),
-                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmJWMf9F8euS1IIrTnbNzUvrC_wWPkfwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/YgA1BNMrfwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
                                      br()
                               )
                             ),
@@ -210,11 +307,7 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                               column(6,
                                      #br(),
                                      h3(strong("Maîtriser la Visualisation avancée des données dans R")),
-                                     h4(p("La visualisation des données permet de les
-                                     explorer et fournit des informations utiles. De bonnes visualisations vous aident 
-                                     également à communiquer vos données à d'autres personnes et sont utiles aux analystes de 
-                                     données et aux autres consommateurs de données. Il existe plusieurs packages de R permettant de 
-                                     créer des graphiques dont ggplot2 qui est certainement le plus utilisé. Dans ce cours, 
+                                     h4(p("Dans ce cours, 
                                      vous apprendrez de manière pratique à créer des graphiques courants tels que les nuages de points, 
                                      les histogrammes, les boîtes à moustache, les diagrammes à barres et d'autres graphiques plus complexes. De plus, vous apprendrez à 
                                      personnaliser vos graphiques afin d'en faciliter la lecture à vos interlocuteurs ce qui vous 
@@ -234,7 +327,7 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                               column(6,
                                      
                                      br(),
-                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmJWMf9F8euQrgm_zLBW3SZgGVJa4ArMh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/j_sMzsJg_O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
                                      br()
                               )
                             ),
@@ -498,17 +591,7 @@ shinyUI(navbarPage(title = "J.A Datatech Consulting",
                               column(6,
                                      #br(),
                                      h3(strong("Développeur d'applications web R Shiny (Formation complète et 100% pratique)")),
-                                     h4(p("Cette formation est 100% pratique et basée sur 05 grands projets :
-
-✅ Application web R Shiny pour la création des nuages de mots (Word Cloud)
-
-✅ Application web R Shiny de Segmentation et de Réduction de dimensionnalité par des algorithmes de Machine Learning
-
-✅ Application web R Shiny pour l'analyse et l'optimisation de portefeuille financier
-
-✅ Application web R Shiny pour l'analyse technique des marchés boursiers
-
-✅ Déploiement d'un modèle Machine Learning de Credit Scoring dans un tableau de bord Shiny.
+                                     h4(p("Cette formation est 100% pratique et basée sur 05 grands projets dans les domaines de NLP, Segmentation de clientèle, Banque et Finance.
 
 Grâce à des explications claires et précises, vous serez capables d'utiliser R Shiny pour créer des applications Web interactives et performantes même si vous n’aviez aucune expérience en développement Web. Que vous soyez Data Scientist, Data Analyst, Statisticien, Chercheur, Etudiant sans connaissances en HTML, CSS, PHP, ou JavaScript, vous pouvez créer des applications web dynamiques en utilisant uniquement du code R.
 
@@ -536,7 +619,7 @@ A travers cette formation, vous apprendrez à :
                               column(6,
                                      
                                      br(),
-                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmJWMf9F8euStJ32KHOThQzJ7hub-JXA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/4XGI_ye0y4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
                                      h4(p("En bonus, vous aurez gratuitement la version PDF de mon livre :", a("Développement Web en Data Science avec R Shiny sans HTML, CSS, PHP ni JavaScript", 
                                                                                                                href = "https://www.amazon.fr/gp/product/B0966HGP6T/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3"))),
                                      h4(p(a("Téléchargez les ressources (codes, notebooks, PDFs, explications, etc.) de ce cours", 
@@ -548,7 +631,7 @@ A travers cette formation, vous apprendrez à :
                             fluidRow(
                               column(6,
                                      #br(),
-                                     h3(strong("Création de tableaux de bords avec Dash + Plotly")),
+                                     h3(strong("Formation sur la Création de Tableaux de bord (dashboard) avec Dash Plotly")),
                                      h4(p("- Contexte et Problématique Business")),
                                      h4(p("- Petit rappel sur Plotly : Diagramme à barres du total des ventes par pays")),
                                      h4(p("- Structure générale d'une application Dash")),
@@ -568,7 +651,7 @@ A travers cette formation, vous apprendrez à :
                               column(6,
                                      
                                      br(),
-                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmJWMf9F8euTPoOtzpxXjsSqs4vd9VcJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                                     HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/2M4_NDVPAAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
                                      
                                      h4(p(a("Téléchargez les ressources (codes, notebooks, explications, etc.) de ce cours", 
                                             href = "https://buy.stripe.com/8wMg30e7I1sudkQeUX")))
@@ -583,8 +666,105 @@ A travers cette formation, vous apprendrez à :
                    
                    # ----------------------------------
                    # tab panel 4 - Consulting
-                   tabPanel("Consulting"
-                            # idée design de la page consulting https://rasa.com/solutions/customer-service-automation/
+                   tabPanel("Solutions",
+                            
+                            tags$img(src="https://user-images.githubusercontent.com/103185465/232069846-bb30245a-81cb-41d7-ab66-1accecdba9d0.png", width=1500,height=600),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("Application web R Shiny pour la création, l'analyse et l'optimisation de Portefeuille financier")),
+                                     
+                                     h4(p("Cette application peut être utilisée par les sociétés d'investissement et particuliers ayant un portefeuille 
+                                     d'actions en bourse. Elle leur sera utile pour l'analyse et l'optimisation de leur portefeuille. Grâce à cette 
+                                     application, les Gestionnaires de Portefeuille d'une société d'investissement pourront analyser efficacement les 
+                                     données des actifs à leur charge et prendre ainsi des décisions éclairées concernant leurs investissements. 
+                                     De plus, avec cette application ils pourront mieux conseiller leurs clients actuels et futurs. 
+                                     Il s'agit d'une application performante, dynamique, simple d'utilisation et qui présente toutes 
+                                     les fonctionnalités nécessaires pour la création, l'analyse et l'optimisation de portefeuille.")),
+                                     
+                                     h4(p("Pour en savoir plus sur la méthodologie de construction de cette application :"), 
+                                        p(a("README", 
+                                            href = "https://github.com/AfoudaJosue/Financial-Portfolio-Optimization/blob/main/README.md"))),
+                        
+                                     #br(),
+                                     h4(p(a("Lien de l'application", href = "https://afoudajosue.shinyapps.io/financial-portfolio-analysis/"), ".")),
+                                     br()
+                                     
+                              ),
+                              
+                              column(6,
+                                     tags$img(src="images/returns.png", width=740,height=430)
+                              )
+                            ),
+                            
+                            br(),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("Josh Auto Machine Learning")),
+                                     
+                                     h4(p("Cette application web, créée avec Python, est destinée à l'analyse exploratoire des données et 
+                                          la création d'un modèle d'apprentissage automatique pour les tâches de régression et de classification.
+                                          Elle permettra à toute personne de pouvoir analyser ses données et de créer un modèle de Machine Learning pour
+                                          résoudre une problématique Business et tout ceci sans écrire une seule ligne de code.")),
+                                     
+                                     h4(p("Pour exécuter l'application en local dans votre machine :")),
+                                     
+                                     h4(p("- Cloner le répertoire github dans votre machine : git clone https://github.com/JosueAfouda/JoshAutoML ;")),
+                                     h4(p("- Ouvrez le terminal dans le répertoire cloné en local ;")),
+                                     h4(p("- Tapez la commande : streamlit run app.py")),
+                                     
+                                     h4(p("Pour en savoir plus sur la méthodologie de construction de cette application :"), 
+                                        p(a("README", 
+                                            href = "https://github.com/JosueAfouda/JoshAutoML/blob/main/README.md"))),
+                                     
+                                     #br(),
+                                     h4(p(a("Code de l'application", href = "https://github.com/JosueAfouda/JoshAutoML/blob/main/app.py"), ".")),
+                                     br()
+                                     
+                              ),
+                              
+                              column(6,
+                                     tags$img(src="https://github.com/JosueAfouda/JoshAutoML/raw/main/home-image.png", width=740,height=430)
+                              )
+                            ),
+                            
+                            br(),
+                            
+                            fluidRow(
+                              column(6,
+                                     #br(),
+                                     h3(strong("Package ShinyforUL")),
+                                     
+                                     h4(p("ShinyforUL est un package R qui fournit une interface graphique pour effectuer facilement 
+                                          l'exploration de données à l'aide de techniques d'apprentissage non supervisées en utilisant les algorithmes
+                                          comme K-Means, ACP et t-SNE.")),
+                                     
+                                     h4(p("Voici quelques fonctionnalités de l'application :")),
+                                     
+                                     h4(p("- Possibilité de normaliser ou de standardiser vos données ;")),
+                                     h4(p("- Choix de la technique de réduction de dimensionnalité (ACP ou t-SNE) ;")),
+                                     h4(p("- Détermination du nombre optimal de clusters pour la segmentation avec K-Means par 2 méthodes distinctes ;")),
+                                     h4(p("- Visualisation des résultats sous formes de tableaux et de graphiques.")),
+                                     
+                                     h4(p("Pour en savoir plus sur l'utilisation de ce package :"), 
+                                        p(a("README", 
+                                            href = "https://github.com/AfoudaJosue/ShinyforUL/blob/main/README.md"))),
+                                     
+                                     h4(p("Vous pouvez aussi utiliser directement l'application sans installer le package 
+                                          (il suffit de fournir le lien web de votre fichier de données au format CSV) :"), 
+                                        p(a("Lien de l'application web", 
+                                            href = " https://afoudajosue.shinyapps.io/kmeans_dim_reduction_app/")))
+                                     
+                              ),
+                              
+                              column(6,
+                                     tags$img(src="https://github.com/AfoudaJosue/ShinyforUL/raw/main/ShinyforUL.png", width=500,height=450)
+                              )
+                            ),
+                            
                    ),
                    
                    # ----------------------------------
